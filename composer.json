@@ -1,0 +1,23 @@
+{
+  "name": "magemontreal/module-product-gallery-cleanup",
+  "version": "1.0.0",
+  "description": "Delete duplicate product images",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "MageMontreal",
+      "email": "support@magemontreal.com"
+    }
+  ],
+  "require": {
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageMontreal\\ProductGalleryCleanup\\": ""
+    }
+  }
+}
